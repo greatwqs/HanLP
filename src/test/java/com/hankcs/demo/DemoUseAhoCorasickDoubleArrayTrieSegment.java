@@ -26,6 +26,6 @@ public class DemoUseAhoCorasickDoubleArrayTrieSegment
         // AhoCorasickDoubleArrayTrieSegment要求用户必须提供自己的词典路径
         AhoCorasickDoubleArrayTrieSegment segment = new AhoCorasickDoubleArrayTrieSegment()
                 .loadDictionary(HanLP.Config.CustomDictionaryPath[0]);
-        System.out.println(segment.seg("微观经济学继续教育循环经济"));
+        System.out.println(segment.seg("一退六二五一字长蛇阵丁宁马醉木中定义的语料格式、丁字钢准备语料鸡新城疫一物降一物"));
     }
 }
